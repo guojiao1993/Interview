@@ -1,3 +1,13 @@
+### PopulatingNextRightPointersInEachNodeII
+记录这道题的目的是提醒，使用 LinkedList 用作队列时，要使用对方法：
+1. add()：添加元素到队列尾；
+1. poll()：获取并移除队列首；
+1. peek()：获取但不移除队列首。
+
+不要和栈操作弄反了：
+1. push()：添加元素到“队列”首；
+1. pop()：获取并移除“队列”首；
+1. peek()：获取但不移除“队列”首。
 ### BinaryTreePostOrderTraversal
 二叉树的后序遍历，要求非递归。  
 
